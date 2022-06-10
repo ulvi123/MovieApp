@@ -1,0 +1,41 @@
+<%- include("partials/header") %>
+<div class="container">
+	<h1 style="color:white;font-family:roboto">
+		Add New Movie
+	</h1>
+	<form action="/Movies" method="POST">
+		  <div class="mb-3">
+			<label for="title" class="form-label" style="color:white;font-family:roboto">Title</label>
+			<input type="text" class="form-control" name="title" placeholder="title" autofocus>
+		  </div>
+		  <div class="mb-3">
+			<label for="overview" class="form-label" style="color:white;font-family:roboto">Overview</label>
+			<input type="text" class="form-control" name="overview" placeholder="Overview">
+		  </div>
+		 
+		 <div class="form-group">
+			<label for="author" class="form-label" style="color:white;font-family:roboto">Author</label>
+			<input type="text" class="form-control" name="author" placeholder="Author">
+		  </div>
+		 <div class="form-group">
+			<label for="publisher" class="form-label" style="color:white;font-family:roboto">Publisher</label>
+			<input type="text" class="form-control" name="publisher" placeholder="Publisher">
+		 </div>
+		 <div class="form-group">
+			<label for="date" class="form-label" style="color:white;font-family:roboto">Date</label>
+			<input type="date" class="form-control" name="date">
+		 </div>
+		 <div class="form-group">
+			<label for="series" class="form-label" style="color:white;font-family:roboto">Series</label>
+			<input type="text" class="form-control" name="series" placeholder="Series">
+		 </div>
+		 <div class="form-group">
+			<label for="poster_path" class="form-label" style="color:white;font-family:roboto">Poster link</label>
+			<input type="text" class="form-control" name="poster_path" placeholder="Image">
+		 </div>
+		
+		  <button type="submit" class="btn btn-primary btn-dark" style="color:white;font-family:roboto;margin:5x 5px 5px 5px;border:1px solid white">Submit</button>
+	</form>
+</div>
+<script src="/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+<%- include("partials/footer") %>

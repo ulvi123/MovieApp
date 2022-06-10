@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #171a19;
+}
+
+h2.main_title {
+	font-size:45px;
+	text-align:center;
+	margin-top:200px;
+	font-family:"Roboto";
+	color:white;
+}
+
+div.search_details {
+	position:absolute;
+}
+
+div.search_details input {
+	font-size:20px;
+	border-radius:10px;
+	padding:3px;
+	width:50vh;
+	position:relative;
+	margin-top:30px;
+	margin-left:380px;
+}
+
+#but{
+	position:relative;
+	margin-bottom:11px;
+	margin-left:600px;
+	width:100px;
+	text-align:center;
+}
+
